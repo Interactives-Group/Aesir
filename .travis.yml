@@ -2,8 +2,5 @@ language: node_js
 
 os: osx
 
-deploy:
-  provider: script
-  script: bash build.sh
-  on:
-    branch: develop
+script:
+  - build.sh && node gulpfile.js
