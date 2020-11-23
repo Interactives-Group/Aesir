@@ -1,9 +1,16 @@
 language: node_js
 
 node_js:
-  - lts/*
+  - 15
 
 os: osx
 
-script:
-  - bash build.sh && node gulpfile.js
+before_script:
+  - npm install gulp --save-dev
+  - npm install gulp-util --save-dev
+  - npm install gulp-tap --save-dev
+  - npm install markdown-it --save-dev
+  - npm install markdown-it-alerts --save-dev
+  - npm install markdown-it-fontawesome --save-dev
+
+script: gulp
