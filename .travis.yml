@@ -6,6 +6,7 @@ node_js:
 os: osx
 
 before_script:
+  - npm install --global gulp-cli
   - npm install gulp --save-dev
   - npm install gulp-util --save-dev
   - npm install gulp-tap --save-dev
