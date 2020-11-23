@@ -3,4 +3,4 @@ language: node_js
 os: osx
 
 script:
-  - build.sh && node gulpfile.js
+  - bash build.sh && node gulpfile.js
