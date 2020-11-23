@@ -1,7 +1,6 @@
 echo "NOTICE: You need node.js and npm installed!"
 git clone https://github.com/puntillol59/Aesir.git
 cd Aesir 
-npm init
 npm install gulp --save-dev
 npm install gulp-util --save-dev
 npm install gulp-tap --save-dev
