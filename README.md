@@ -1,2 +1,2 @@
 # Aesir
-An easy, Markdown based README language.
+An easy, Markdown like README language.
