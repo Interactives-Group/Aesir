@@ -19,7 +19,7 @@ md.renderer.rules.table_close = function (tokens, idx, options, env, self) {
         + '</div>\n';
 };
 
-exports.default = series(clean, build);
+exports.default = watch
 
 gulp.task('build', function() {
     return gulp.src('articles/**/*.md')
