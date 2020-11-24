@@ -20,7 +20,7 @@ md.renderer.rules.table_close = function (tokens, idx, options, env, self) {
 };
 
 function defaultTask(cb) {
-  // test to see if it builds...
+  // test to see if it builds... if so, continue with editing other parts of the script.
   cb();
 }
 
