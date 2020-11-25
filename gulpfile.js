@@ -1,5 +1,7 @@
 /* global Buffer */
 
+/* Built by Lucas Puntillo */
+
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var tap = require('gulp-tap');
@@ -19,12 +21,12 @@ md.renderer.rules.table_close = function (tokens, idx, options, env, self) {
         + '</div>\n';
 };
 
-function defaultTask(cb) {
+function buildtsk(cb) {
   // test to see if it builds... if so, continue with editing other parts of the script.
   cb();
 }
 
-exports.default = defaultTask
+exports.default = buildtsk
 
 gulp.task('build', function() {
     return gulp.src('articles/**/*.md')
