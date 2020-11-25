@@ -14,4 +14,4 @@ before_script:
   - npm install markdown-it-alerts --save-dev
   - npm install markdown-it-fontawesome --save-dev
 
-script: gulp && ls
+script: gulp && cd dist && ls
