@@ -9,4 +9,5 @@ npm install markdown-it --save-dev
 npm install markdown-it-alerts --save-dev
 npm install markdown-it-fontawesome --save-dev
 echo "Success!"
-gulp && cd articles && ls
+gulp && cd dist && ls
+echo "Your file is located in /dist"
