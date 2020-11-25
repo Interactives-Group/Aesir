@@ -29,7 +29,7 @@ function buildtsk(cb) {
 
 exports.default = buildtsk
 
-gulp.task('build', function() {
+function build() { 
     return gulp.src('articles/**/*.md')
         .pipe(tap(markdownToHtml))
         .pipe(gulp.dest('./dist'));
