@@ -33,7 +33,7 @@ function build() {
     return gulp.src('articles/**/*.md')
         .pipe(tap(markdownToHtml))
         .pipe(gulp.dest('./dist'));
-});
+}
 
 gulp.task('watch', function() {
     gulp.watch('**/*.md', ['build']);
