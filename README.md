@@ -1,6 +1,6 @@
 # Aesir
 
-[![Build Status](https://travis-ci.com/puntillol59/Aesir.svg?branch=main)](https://travis-ci.com/puntillol59/Aesir)
+[![Build Status via travis](https://travis-ci.com/puntillol59/Aesir.svg?branch=main)](https://travis-ci.com/puntillol59/Aesir)
 
 An lightweight, Markdown like README language.
 
