@@ -22,7 +22,6 @@ md.renderer.rules.table_close = function (tokens, idx, options, env, self) {
 };
 
 function buildtsk(cb) {
-  // test to see if it builds... if so, continue with editing other parts of the script.
   build();
   cb();
 }
