@@ -1,1 +1,1 @@
-Just make sure that you arent stealing code.
+Just make sure that you aren't stealing code.
